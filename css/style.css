@@ -1390,3 +1390,36 @@ textarea.input {
 	    -ms-transform:translateY(0px);
 	        transform:translateY(0px);
 }
+
+
+
+/*********** Masonry****************/
+
+* { box-sizing: border-box; }
+
+.grid:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.grid-item {
+  width: 24%;
+  height: 328px;
+  float: left;
+  border: 1px solid #333;
+  border-color: hsla(0, 0%, 0%, 0.5);
+  border-radius: 5px;
+  margin-bottom: 20px;
+  margin-left: 3px;
+  margin-right: 3px;
+  padding: 6px;
+}
+
+.grid-item--width2 { width:24%; }
+.grid-item--width3 { width: 24%; }
+.grid-item--width4 { width: 24%; }
+
+.grid-item--height2 { height: 351px; }
+.grid-item--height3 { height: 260px; }
+.grid-item--height4 { height: 332px; }
