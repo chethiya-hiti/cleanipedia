@@ -183,8 +183,8 @@ textarea.input {
 	Center Header
 \*----------------------------*/
 #header #center-header {
-	padding-top:20px;
-	padding-bottom:20px;
+	padding-top:10px;
+	padding-bottom: 10px;
 }
 
 .header-logo {
@@ -196,9 +196,8 @@ textarea.input {
 }
 
 .header-logo .logo > img {
-	width: 100%;
-	max-height: 90px;
-	padding: 10px;
+	width: auto;
+	max-height: 50px;
 }
 
 /* .header-ads {
@@ -210,7 +209,9 @@ textarea.input {
 \*----------------------------*/
 #header #nav-header {
 	background: #ffffff;
+	box-shadow: 0 9px 10px 0 rgba(0,0,0,.05), 0 -1px 0 0 rgba(0,0,0,.06);
 }
+
 
 #nav-header .nav-logo {
 	display:none;
@@ -243,6 +244,7 @@ textarea.input {
 .navbar-nav{
 	text-align: center;
 	float: none;
+	padding: 15px 0;
 }
 
 #main-nav{
@@ -250,25 +252,29 @@ textarea.input {
 }
 
 .main-nav li a {
-	padding: 25px 15px;
+	padding: 0 15px;
 	color: rgb(0, 0, 0);
 	font-family: 'Source Sans Pro';
 	font-weight: 700;
     font-size: 18px;
-    letter-spacing: 1px;
+	letter-spacing: 1px;
+	border-right: 1px solid #f3f3f3;
+}
+
+.main-nav li:last-child a{
+	border-right: none;
 }
 
 .main-nav li.active a {
-	background-color:#fff;
 	color: #0099ab;
-
+    background-color: transparent;
 }
 
 .main-nav li a:hover, .main-nav li a:focus {
-	background-color:#fff;
 	color: #0099ab;
+	background-color: transparent;
 }
-}
+
 
 .button-nav {
 	position:relative;
@@ -1146,10 +1152,12 @@ textarea.input {
 
 #footer a {
 	color:#DDD;
+	font-size: 14px;
+    font-weight: 600;
 }
 
 #footer a:hover {
-	color:#EF233C;
+	color:#828282;
 }
 
 /*------------------------------------*\
@@ -1199,6 +1207,10 @@ textarea.input {
 	font-size: 12.5px;
 	text-align: center;
 	text-transform: uppercase;
+}
+
+#bottom-footer{
+	text-align: center;
 }
 
 .footer-copyright {
