@@ -266,14 +266,13 @@ textarea.input {
 }
 
 .main-nav li.active a {
-	background-color:#fff;
 	color: #0099ab;
-
+    background-color: transparent;
 }
 
 .main-nav li a:hover, .main-nav li a:focus {
-	background-color:#fff;
 	color: #0099ab;
+	background-color: transparent;
 }
 }
 
@@ -1153,10 +1152,12 @@ textarea.input {
 
 #footer a {
 	color:#DDD;
+	font-size: 14px;
+    font-weight: 600;
 }
 
 #footer a:hover {
-	color:#EF233C;
+	color:#828282;
 }
 
 /*------------------------------------*\
@@ -1206,6 +1207,10 @@ textarea.input {
 	font-size: 12.5px;
 	text-align: center;
 	text-transform: uppercase;
+}
+
+#bottom-footer{
+	text-align: center;
 }
 
 .footer-copyright {
