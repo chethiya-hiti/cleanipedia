@@ -31,6 +31,8 @@ Table OF Contents
 /*----------------------------*\
 	typography
 \*----------------------------*/
+
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,900&display=swap');
 body {
 	font-family: 'Lato', sans-serif;
 	color:#2C2C2C;
@@ -186,7 +188,7 @@ textarea.input {
 }
 
 .header-logo {
-	float:left;
+	text-align: center;;
 }
 
 .header-logo .logo {
@@ -199,15 +201,15 @@ textarea.input {
 	padding: 10px;
 }
 
-.header-ads {
+/* .header-ads {
 	float:right;
-}
+} */
 
 /*----------------------------*\
 	Nav Header
 \*----------------------------*/
 #header #nav-header {
-	background: #07090c;
+	background: #ffffff;
 }
 
 #nav-header .nav-logo {
@@ -233,25 +235,39 @@ textarea.input {
 }
 
 .main-nav li {
-	border-left:1px solid #222;
+	display: inline-block;
+	float: none;
+
 }
 
-.main-nav li:last-child {
-	border-right:1px solid #222;
+.navbar-nav{
+	text-align: center;
+	float: none;
+}
+
+#main-nav{
+	text-align: center;
 }
 
 .main-nav li a {
 	padding: 25px 15px;
-	color: #FFF;
-	text-transform: uppercase;
+	color: rgb(0, 0, 0);
+	font-family: 'Source Sans Pro';
+	font-weight: 700;
+    font-size: 18px;
+    letter-spacing: 1px;
 }
 
 .main-nav li.active a {
-	background-color:#EF233C !important;
+	background-color:#fff;
+	color: #0099ab;
+
 }
 
 .main-nav li a:hover, .main-nav li a:focus {
-	background-color:#222;
+	background-color:#fff;
+	color: #0099ab;
+}
 }
 
 .button-nav {
