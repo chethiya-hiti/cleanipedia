@@ -1423,3 +1423,20 @@ textarea.input {
 .grid-item--height2 { height: 351px; }
 .grid-item--height3 { height: 260px; }
 .grid-item--height4 { height: 332px; }
+
+
+
+
+/**************** Article***************/
+
+.article-layout
+{
+	width: 79%;
+    margin-bottom: 22px;
+    margin-left: -21px;
+    border: 0px groove;
+    padding: 10px;
+    box-shadow: 0px 0px 5px 4px #dff0d84d;
+    background-color: white;
+    color: black;
+}
