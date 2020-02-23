@@ -610,7 +610,7 @@ textarea.input {
 }
 
 .article .article-title {
-	text-transform: uppercase;
+	text-transform: capitalize;
 	margin-top:0px;
 }
 
